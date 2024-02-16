@@ -21,7 +21,7 @@ A continuación se presenta cada una de las secciones que componen el diplomado,
 
 ### Métodos supervisados
 
-En esta sección se va a explorar la introducción al aprendizaje automático (Machine Learning), se definirán los conceptos del aprendizaje supervisado y no supervisado, así como varias de sus aplicaciones reales en diferentes industrias. <a href="https://colab.research.google.com/github.com/contreras-juan/UPTC_Diplomado_Ciencia_de_Datos/blob/main/metodos_supervisados/Machine_Learning.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+En esta sección se va a explorar la introducción al aprendizaje automático (Machine Learning), se definirán los conceptos del aprendizaje supervisado y no supervisado, así como varias de sus aplicaciones reales en diferentes industrias. <a href="https://colab.research.google.com/github/contreras-juan/UPTC_Diplomado_Ciencia_de_Datos/blob/main/metodos_supervisados/Machine_Learning.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 #### Introducción a Scikit-Learn
 
