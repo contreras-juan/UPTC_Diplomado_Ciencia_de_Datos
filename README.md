@@ -56,3 +56,5 @@ DBScan es un algoritmo de clustering que se destaca por su capacidad de identifi
 
 #### Reglas de Asociación (4 horas)
 Las Reglas de Asociación son herramientas poderosas para descubrir relaciones entre variables en grandes bases de datos. Este tema se enfoca en explicar cómo generar y aplicar reglas de asociación, con ejercicios prácticos para ilustrar su implementación y un caso aplicado para mostrar su aplicación en análisis de datos.  <a href="https://colab.research.google.com/github/contreras-juan/UPTC_Diplomado_Ciencia_de_Datos/blob/main/metodos_no_supervisados/regla_asociacion.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+#### Caso Practico metodos no supervisados <a href="https://colab.research.google.com/github/contreras-juan/UPTC_Diplomado_Ciencia_de_Datos/blob/main/metodos_no_supervisados/caso_practico.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
