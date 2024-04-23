@@ -27,6 +27,8 @@ En esta sección se va a explorar la introducción al aprendizaje automático (M
 
 #### Regresión lineal
 
+En la ciencia de datos, la Regresión Lineal emerge como una herramienta crucial para la predicción, la inferencia estadística y la explicación de fenómenos estadísticos. Este método se basa en la suposición de una relación lineal entre una variable dependiente y una o más variables independientes, buscando identificar el mejor ajuste lineal posible. Puedes acceder al material interactivo en el siguiente link: <a href="https://colab.research.google.com/github/contreras-juan/UPTC_Diplomado_Ciencia_de_Datos/blob/main/metodos_supervisados/Regresión_Lineal.ipynb" target="_parent"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a>
+
 #### K-vecinos-más-cercanos (KNN)
 
 #### Regresión logística
