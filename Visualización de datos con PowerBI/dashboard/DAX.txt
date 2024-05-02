@@ -1,0 +1,68 @@
+SUM()
+AVERAGE()
+AVERAGEX()
+
+
+
+
+Total_ganancia = SUM(Fact_Ventas[Margen_Ganancia])
+
+
+-----------------------------------------------------
+Avg_venta_vendedor = 
+CALCULATE(
+    AVERAGEX(
+        VALUES('Dim_Vendedor'[Vendedor]),
+        CALCULATE(
+            SUM('Fact_Ventas'[Precio Venta sin IGV])
+        )
+    )
+)
+
+-----------------------------------------------------
+Ventas_mejores_clientes = 
+CALCULATE(
+    SUM('Fact_Ventas'[Precio Venta sin IGV]),
+    FILTER(
+        VALUES('Fact_Ventas'[Cliente]),
+        CALCULATE(
+            SUM('Fact_Ventas'[Precio Venta sin IGV]),
+            'Fact_Ventas'[Cliente] = EARLIER('Fact_Ventas'[Cliente])
+        ) > 400000
+    )
+)
+
+-----------------------------------------------------
+Ventas_mid_clientes = 
+CALCULATE(
+    SUM('Fact_Ventas'[Precio Venta sin IGV]),
+    FILTER(
+        VALUES('Fact_Ventas'[Cliente]),
+        CALCULATE(
+            SUM('Fact_Ventas'[Precio Venta sin IGV]),
+            'Fact_Ventas'[Cliente] = EARLIER('Fact_Ventas'[Cliente])
+        ) <= 400000 
+        
+        && 
+        
+        CALCULATE(
+            SUM('Fact_Ventas'[Precio Venta sin IGV]),
+            'Fact_Ventas'[Cliente] = EARLIER('Fact_Ventas'[Cliente])
+        ) >=200000
+
+    )
+)
+
+
+-----------------------------------------------------
+Ventas_botom_clientes = 
+CALCULATE(
+    SUM('Fact_Ventas'[Precio Venta sin IGV]),
+    FILTER(
+        VALUES('Fact_Ventas'[Cliente]),
+        CALCULATE(
+            SUM('Fact_Ventas'[Precio Venta sin IGV]),
+            'Fact_Ventas'[Cliente] = EARLIER('Fact_Ventas'[Cliente])
+        ) <= 200000
+    )
+)
