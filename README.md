@@ -29,9 +29,12 @@ En esta sección se va a explorar la introducción al aprendizaje automático (M
 
 En la ciencia de datos, la Regresión Lineal emerge como una herramienta crucial para la predicción, la inferencia estadística y la explicación de fenómenos estadísticos. Este método se basa en la suposición de una relación lineal entre una variable dependiente y una o más variables independientes, buscando identificar el mejor ajuste lineal posible. Puedes acceder al material interactivo en el siguiente link: <a href="https://colab.research.google.com/github/contreras-juan/UPTC_Diplomado_Ciencia_de_Datos/blob/main/metodos_supervisados/Regresión_Lineal.ipynb" target="_parent"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a>
 
-#### K-vecinos-más-cercanos (KNN)
-
 #### Regresión logística
+
+La regresión logística es una técnica estadística fundamentalmente utilizada para la modelización y predicción de variables categóricas. A diferencia de la regresión lineal, que se emplea para predecir valores continuos, la regresión logística estima la probabilidad de que un evento ocurra o no, en función de una o más variables predictoras. En este paradigma, el modelo logístico utiliza una función sigmoide para transformar la combinación lineal de las variables predictoras, lo que permite interpretar fácilmente las probabilidades resultantes y tomar decisiones informadas. Puedes acceder al material interactivo en el siguiente link: <a href="https://colab.research.google.com/github/contreras-juan/UPTC_Diplomado_Ciencia_de_Datos/blob/main/metodos_supervisados/Regresión_Logística.ipynb" target="_parent"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a>
+
+
+#### K-vecinos-más-cercanos (KNN)
 
 #### Máquinas de Soporte Vectorial (SVM)
 
